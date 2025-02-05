@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #1f1f1f;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #f1c40f;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+#search-button {
+  background: none;
+  border: none;
+  color: #f1c40f;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#search {
+  margin-left: 10px;
+  padding: 5px;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: 2px solid #f1c40f;
+  padding-bottom: 5px;
+}
+
+.content-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.content-container div {
+  background: #1f1f1f;
+  border-radius: 8px;
+  padding: 0.5rem;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.content-container div img {
+  width: 100%;
+  border-radius: 8px;
+}
+video {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the video */
+  object-fit: contain; /* Keep aspect ratio intact */
+}
+#videoModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+iframe {
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
