@@ -1,0 +1,26 @@
+{
+  "movies": [
+    {
+      "title": "Movie 1",
+      "thumbnail": "https://imgur.com/a/9dU1whn",
+      "video": "https://drive.google.com/file/d/1ToZ5Ym9NEJy-JBusIV0LVDMTEPP0jtIb/preview"
+    },
+    {
+      "title": "Pushpa 2",
+      "thumbnail": "assets/images/pushpa2.jpg",
+      "video": "assets/videos/pushpa2.mp4"
+    }
+  ],
+  "webSeries": [
+    {
+      "title": "Web Series 1",
+      "thumbnail": "assets/images/webseries1.jpg",
+      "video": "assets/videos/webseries1.mp4"
+    },
+    {
+      "title": "Web Series 2",
+      "thumbnail": "assets/images/webseries2.jpg",
+      "video": "assets/videos/webseries2.mp4"
+    }
+  ]
+}
